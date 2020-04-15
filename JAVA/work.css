@@ -1,0 +1,231 @@
+
+body{
+    background-color:wheat;
+    margin:  032;
+    padding: 0;
+    height: 100px;
+}
+.titel{
+ background-color: black;
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ height: 100px;
+}
+.heading{
+    font: outline;
+    font-style: inherit;
+    font-size: 70px;
+    color:wheat;
+    width:100%
+}
+.myname{
+    font: outline;
+    font-style: inherit;
+    font-size: 20px;
+    color:rgb(179, 184, 245);
+    width:100%
+    
+}
+.home{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+   
+}
+.home:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.work{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+   
+}
+.work:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.adout{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+   
+}
+.adout:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.contact{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+}
+.contact:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.button{
+    order: -1;
+}
+.icongroup{
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+
+}
+
+.mail{
+    color:white;
+    width: 60%;
+    order: 2;
+}
+.icon1{
+    width: 40%;
+    order: 1;
+}
+.icon{
+    margin: 10px;
+    border:1px solid #333333;
+    border-radius:5px;
+    box-shadow:0 px 3px 20px 2px wheat;
+    width:25px;
+    margin-left: 20px;
+}
+.ele{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+
+}
+.electrical{
+    width: 70%;
+}
+.photo{
+    margin-top: 50px;  
+    margin-right: 0px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 200px;
+    width: 24.70%;  
+}
+.cls1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+@media screen and (min-width:480px) and (max-width:767px){
+    .ele{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1000px;
+    
+    }
+    .electrical{
+        height: 600px;
+        width: 100%;
+        order: 2;
+    }
+    .photo{
+        order: 1; 
+        margin-left: 50px;
+        height: 155px;
+        box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 72%; 
+    }
+    .icongroup{
+        background-color:black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    .mail{
+        color:white;
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .icon1{
+        width: 100%;
+        margin-left: 23%;
+        order: 2;
+    }
+    
+    .icon{
+        margin: 10px;
+        border:1px solid #333333;
+        border-radius:5px;
+        box-shadow:0 px 3px 20px 2px wheat;
+        width:25px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    .heading{
+        font: outline;
+        font-style: inherit;
+        font-size: 30px;
+        color:wheat;
+        width:100%
+    }
+    .icongroup{
+        background-color:black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    .mail{
+        color:white;
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .icon1{
+        width: 100%;
+        margin-left: 23%;
+        order: 2;
+    }
+    
+    .icon{
+        margin: 10px;
+        border:1px solid #333333;
+        border-radius:5px;
+        box-shadow:0 px 3px 20px 2px wheat;
+        width:10px;
+        margin-left: 0px;
+    }
+
+}

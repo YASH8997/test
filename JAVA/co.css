@@ -1,0 +1,251 @@
+
+body{
+    background-color:black;
+    margin:  032;
+    padding: 0;
+    height: 100px;
+}
+.titel{
+ background-color: black;
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ height: 400px;
+}
+.heading{
+    font: outline;
+    font-style: inherit;
+    font-size: 70px;
+    color:wheat;
+    width:100%
+}
+.myname{
+    font: outline;
+    font-style: inherit;
+    font-size: 20px;
+    color:rgb(179, 184, 245);
+    width:100%
+    
+}
+.home{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+   
+}
+.home:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.work{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+   
+}
+.work:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.adout{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+   
+}
+.adout:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.contact{
+    background: black;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:2px;
+    margin-top:20px;
+    padding:10px;
+}
+.contact:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.button{
+    order: -1;
+}
+.icongroup{
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+
+}
+
+.mail{
+    color:white;
+    width: 60%;
+    order: 2;
+}
+.icon1{
+    width: 40%;
+    order: 1;
+}
+.icon{
+    margin: 10px;
+    border:1px solid #333333;
+    border-radius:5px;
+    box-shadow:0 px 3px 20px 2px wheat;
+    width:25px;
+    margin-left: 20px;
+}.contact1{
+    color: white;
+}
+.mobile {
+    margin-top: 100px;
+    font-size: 30px;
+    background-color:black;
+    color:white;
+    margin-bottom: 50px;
+    border: 2px solid black;
+  }
+  
+  .mobile:hover {
+    cursor:pointer;
+    background-color: orange;
+    color: white;
+  }
+  .plc{
+      font-size: 25px;
+      margin-bottom: 150px;
+  }
+  @media screen and (min-width:480px) and (max-width:767px){
+
+    .icongroup{
+        background-color:black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    .mail{
+        color:white;
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .icon1{
+        width: 100%;
+        margin-left: 23%;
+        order: 2;
+    }
+        
+    .icon{
+        margin: 10px;
+        border:1px solid #333333;
+        border-radius:5px;
+        box-shadow:0 px 3px 20px 2px wheat;
+        width:25px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    .heading{
+        font: outline;
+        font-style: inherit;
+        font-size: 30px;
+        color:wheat;
+        width:100%
+    }
+    .icongroup{
+        background-color:black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    .mail{
+        color:white;
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .icon1{
+        width: 100%;
+        margin-left: 23%;
+        order: 2;
+    }
+    
+    .icon{
+        margin: 10px;
+        border:1px solid #333333;
+        border-radius:5px;
+        box-shadow:0 px 3px 20px 2px wheat;
+        width:20px;
+        margin-left: 0px;
+    }
+
+}
+@media screen and (max-width:480px){
+    .heading{
+        font: outline;
+        font-style: inherit;
+        font-size: 30px;
+        color:wheat;
+        width:100%
+    }
+    .icongroup{
+        background-color:black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    .mail{
+        color:white;
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .icon1{
+        width: 100%;
+        margin-left: 23%;
+        order: 2;
+    }
+    
+    .icon{
+        margin: 10px;
+        border:1px solid #333333;
+        border-radius:5px;
+        box-shadow:0 px 3px 20px 2px wheat;
+        width:10px;
+        margin-left: 0px;
+    }
+
+}
